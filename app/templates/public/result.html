@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Result{% endblock %}
+
+{% block content %}
+
+<h1 class="result-title">Shorten URL</h1>
+
+<div class="container">
+    <p id="short_url">{{short_url}}</p>
+    <button onclick="copyToClipboard('short_url')">Copy</button>
+</div>
+
+<div class="redirect"><a href="/">Shorten another</a></div>
+
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Index{% endblock %}
+
+{% block content %} 
+
+    <h1>Shorten a long URL</h1>
+
+    <form method="POST">
+        <input type="url" name="url" placeholder="Enter long link here" required>
+        <button>Shorten URL</button>
+    </form>
+
+{% endblock %}

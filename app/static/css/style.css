@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 11rem;
+    background-color: #242424 !important;
+}
+
+.nav-items ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-items ul li a {
+    color: #fff;
+}
+
+main {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 20px;
+    padding: 5px;
+    z-index: 100;
+}
+
+h1{
+    padding: 1rem;
+    font-size: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+button{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #242424;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+button:hover{
+    background-color: #111111;
+}
+
+form input, button{
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.result-title {
+    margin: 0 auto;
+    padding-left: 6rem;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 1rem;
+}
+
+.container p{
+    background-color: #242424;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.redirect{
+    padding: 2rem 0rem 0 8rem;
+    font-size: 14px;
+}
+
+.redirect a{
+    color: cyan;
+    text-decoration: underline;
+}
+
+footer {
+    border-top: 1px solid #fff;
+    text-align: center;
+    width: 90%;
+    margin: 88vh auto 0;
+    padding: 1rem 0;
+    font-size: 0.7rem;
+}
+
